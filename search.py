@@ -1,14 +1,3 @@
-"""
-Search Module: BFS, DFS and A* on a weighted graph.
-
-The graph is modeled on the whiteboard drawing. Node names and the heuristic
-values are assumptions (the photo was not fully legible) -- edit GRAPH and H
-below to match your own board.
-
-    A* :  f(n) = g(n) + h(n)
-          g(n) = cost from start to n
-          h(n) = heuristic estimate from n to the goal
-"""
 
 import heapq
 from collections import deque
